@@ -1,0 +1,36 @@
+// Slide47
+let texto = "Olá, mundo!";
+
+console.log(texto.startsWith("Olá"));
+console.log(texto.endsWith("mundo!"));
+console.log(texto.includes("mundo"));
+console.log("abc".repeat(3));
+
+// Slide49
+let texto0 = "JavaScript";
+console.log(texto.charAt(4));
+
+let frase1 = "O gato subiu no telhado e depois pulou.";
+console.log(frase1.indexOf("gato"));
+console.log(frase1.lastIndexOf("pulou"));
+
+let palavra = "abcdefgh";
+console.log(palavra.substring(2, 5));
+
+let texto1 = "Esta é uma string.";
+console.log(texto1.slice(5, 7));
+
+let lista = "maçã,banana,uva,melancia";
+let frutas = lista.split(",");
+console.log(frutas);
+
+let frase2 = "O JavaScript é incrível!";
+let novaFrase = frase2.replace("JavaScript", "Python");
+console.log(novaFrase);
+
+let texto2 = "JavaSCRIPT";
+console.log(texto2.toLowerCase());
+console.log(texto2.toUpperCase());
+
+let texto3 = " Espaços ao redor ";
+console.log(texto3.trim());
